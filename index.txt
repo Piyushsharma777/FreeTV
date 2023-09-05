@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tv Channels</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* background-color: black; */
+        }
+        .tv{
+            /* background-image: url(https://www.jiotv.com/src/resources/images/Redirection-screen_Background.jpg); */
+            background: linear-gradient(to right, rgb(69, 104, 220), rgb(176, 106, 179));
+            border: 2px solid red;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;  
+            
+            
+        }
+        .tv a{
+            /* padding: 50px 50px; */
+            /* display: flex;
+        justify-content: center; */
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        flex-direction: column;
+        font-size: 30px;
+        /* align-items: center; */
+        top: 0%;
+        
+        /* height: 100%;
+        width: 100%;
+        */
+        
+    }
+    .tv a img{ 
+        /* display: inline-block; */
+        box-shadow: 20px;
+        border: 5px solid yellow; 
+        border-radius: 20px;
+        background-color: #C7C0D0;
+        padding: 7px 7px;
+            height: 100px;
+            width: 100px;
+            margin-bottom: 50px;
+            position: relative;
+            top: 20px;   
+            display: flex;      
+            justify-content: space-evenly;
+            
+        }
+        p{ 
+            color: black;
+            text-align: center;
+            
+        }
+        header{
+            height: 70px;
+            background-color: rgb(38, 33, 42);
+            
+        }
+        nav{
+            text-align: center;
+            padding: 8px;  
+            display: flex;  
+            justify-content: space-evenly;        
+        }
+        .navv nav  a{
+            text-decoration: none;
+            color: white; 
+            font-weight: bold;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 40px ;
+            
+            
+            
+        }
+        
+        .logo{
+            position: fixed;
+            height: auto;
+            left: 0px;
+            width: 76px;
+        }
+        nav a:hover{ background-color: white;
+        color: rgb(38, 33, 42);
+        border: 3px solid green;
+        font-size: 46px;
+        transition: .3s;
+        
+        
+        
+    }
+    .tv a img:hover{
+        background-color: yellow;
+        border: 4px solid rgb(0, 255, 123);
+        transition: .3s;
+    }
+    
+    @media (max-width= 800px) {
+        .navv nav a{
+            display: none;  
+            font-size: 2px;
+            
+        }
+    }
+    footer{
+            background-color: yellow;
+            color: rgb(1, 16, 152);
+            font-family: 'Courier New', Courier, monospace;
+            HEIGHT: 69px;
+            text-align: center;
+            font-size: 33px;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <a href="##" target="_main"> <img src="https://www.jiotv.com/src/resources/images/JioTV_logo.png" alt="jio" class="logo"></a>
+        </div>
+        <div class="navv">
+            <nav>
+                <a href="/site-premium.html" target="_main">Home</a>
+                <a href="/site-premium.html">About</a>
+                <a href="/site-premium.html">Contact</a>
+                <a href="/site-premium.html">Feedback</a>
+                <a href="/site-premium.html">Help?</a>
+                <button><a style="color: red;" href="/site-premium.html" target="_main">Sign IN</a></button>
+            </nav></div>
+        </header>
+    
+    <div class="tv">
+
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=559"><img src="/sabsd.png" alt="Sony Sab SD"> 
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=48"><img src="/sabhd.png" alt="SAB HD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=80"><img src="/sonymax.png" alt="MAX HD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=132"><img src="/maxsd.png" alt="SONY MAX SD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id"><img src="/sonypal.png" alt="Sony Pal"></a>
+    <a href="https://itstonystark.xyz/T5/67/"><img src="/sonywah.png" alt="Sony Wah"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=24"><img src="/24.png" alt="Star Sports1HD Hindi"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=244"><img src="/244.png" alt="Star Bharat HD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=114"><img src="/114.png" alt="Disney SD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=191"><img src="/191.png" alt="DD National"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=245"><img src="/stargoldhd.png" alt="Star Gold HD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=587"><img src="/superhungama.png" alt="Super Hungama"></a>
+    <a href="https://hiskidxd.com/T5/JIOTV/app/play.php?cid=Sony_Yay_Hindi&id=872"><img src="/sonyyay.png" alt="Sony Yay!"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=127"><img src="/sonic.png" alt="Sonic Nick"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=823"><img src="/goldmines.png" alt="Goldmines"></a>
+    <a href="https://itstonystark.xyz/T5/67/"><img src="/sonywah.png" alt="Sony Wah"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=24"><img src="/24.png" alt="Star Sports1HD Hindi"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=244"><img src="/244.png" alt="Star Bharat HD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=114"><img src="/114.png" alt="Disney SD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=191"><img src="/191.png" alt="DD National"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=245"><img src="/stargoldhd.png" alt="Star Gold HD"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=587"><img src="/superhungama.png" alt="Super Hungama"></a>
+    <a href="https://hiskidxd.com/T5/JIOTV/app/play.php?cid=Sony_Yay_Hindi&id=872"><img src="/sonyyay.png" alt="Sony Yay!"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=127"><img src="/sonic.png" alt="Sonic Nick"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=823"><img src="/goldmines.png" alt="Goldmines"></a>
+    <a href="https://itstonystark.xyz/T5/67/play.php?id=559"><img src="/sabsd.png" alt="Sony Sab SD"> 
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=48"><img src="/sabhd.png" alt="SAB HD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=80"><img src="/sonymax.png" alt="MAX HD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=132"><img src="/maxsd.png" alt="SONY MAX SD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id"><img src="/sonypal.png" alt="Sony Pal"></a>
+        <a href="https://itstonystark.xyz/T5/67/"><img src="/sonywah.png" alt="Sony Wah"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=24"><img src="/24.png" alt="Star Sports1HD Hindi"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=244"><img src="/244.png" alt="Star Bharat HD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=114"><img src="/114.png" alt="Disney SD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=191"><img src="/191.png" alt="DD National"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=245"><img src="/stargoldhd.png" alt="Star Gold HD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=24"><img src="/24.png" alt="Star Sports1HD Hindi"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=244"><img src="/244.png" alt="Star Bharat HD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=114"><img src="/114.png" alt="Disney SD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=191"><img src="/191.png" alt="DD National"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=245"><img src="/stargoldhd.png" alt="Star Gold HD"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=587"><img src="/superhungama.png" alt="Super Hungama"></a>
+        <a href="https://hiskidxd.com/T5/JIOTV/app/play.php?cid=Sony_Yay_Hindi&id=872"><img src="/sonyyay.png" alt="Sony Yay!"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=127"><img src="/sonic.png" alt="Sonic Nick"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=823"><img src="/goldmines.png" alt="Goldmines"></a>
+        <a href="https://itstonystark.xyz/T5/67/"><img src="/sonywah.png" alt="Sony Wah"></a>
+        <a href="https://itstonystark.xyz/T5/67/play.php?id=559"><img src="/sabsd.png" alt="Sony Sab SD"> 
+            <a href="https://itstonystark.xyz/T5/67/play.php?id"><img src="/sonypal.png" alt="Sony Pal"></a>
+            <a href="https://itstonystark.xyz/T5/67/"><img src="/sonywah.png" alt="Sony Wah"></a>
+            <a href="https://itstonystark.xyz/T5/67/play.php?id=24"><img src="/24.png" alt="Star Sports1HD Hindi"></a>
+            <a href="https://itstonystark.xyz/T5/67/play.php?id=244"><img src="/244.png" alt="Star Bharat HD"></a>
+            <a href="https://itstonystark.xyz/T5/67/play.php?id=114"><img src="/114.png" alt="Disney SD"></a>
+            <a href="https://itstonystark.xyz/T5/67/play.php?id=191"><img src="/191.png" alt="DD National"></a>
+            <a href="https://itstonystark.xyz/T5/67/play.php?id=245"><img src="/stargoldhd.png" alt="Star Gold HD"></a>
+            <a href="https://itstonystark.xyz/T5/67/play.php?id=587"><img src="/superhungama.png" alt="Super Hungama"></a>
+            <a href="https://hiskidxd.com/T5/JIOTV/app/play.php?cid=Sony_Yay_Hindi&id=872"><img src="/sonyyay.png" alt="Sony Yay!"></a>
+<footer>
+    <p>Copyright &copf; by site-premium 2112</p>
+</footer>
+</body>
+</html> 
